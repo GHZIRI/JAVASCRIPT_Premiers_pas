@@ -39,3 +39,4 @@ let produits = [
 
 console.log("Liste des produits :");
 produits.forEach((p) => console.log(`${p.nom} → ${p.prix} DH`));
+

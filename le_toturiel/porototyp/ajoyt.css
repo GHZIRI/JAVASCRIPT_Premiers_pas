@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+  }
+header {
+  display: flex;           
+  justify-content: center; 
+  gap: 20px;               
+  background-color: #0077b6;
+  padding: 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header a:hover {
+  color: #0077b6;              
+  border: 3px solid black;   
+  background-color: #ffffff;    
+  padding: 5px 10px;            
+  border-radius: 5px;  
+   }
+
+
+header a:hover {
+  color: #caf0f8;
+}
+
+  .inp {
+    background-color: #caf0f8;
+    padding: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .inp label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #023e8a;
+  }
+
+  .inp input[type="text"],
+  .inp input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #0077b6;
+  }
+
+  .inp input[type="radio"] {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+
+  .inp button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .inp button:nth-child(1) {
+    background-color: #0096c7;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .inp button:nth-child(1):hover {
+    background-color: #0077b6;
+  }
+
+  .inp button:nth-child(2) {
+    background-color: #ff6b6b;
+    color: white;
+  }
+
+  .inp button:nth-child(2):hover {
+    background-color: #fa5252;
+  }
