@@ -20,8 +20,9 @@ function showCatalog(filter = "") {
       div.classList.add("book-card");
   
       div.innerHTML = `
-        <p><b>First name:</b> ${book.name}</p>
-        <p><b>Last name:</b> ${book.last}</p>
+       <p><b>code</b> ${book.code}</p> 
+        <p><b>authore:</b> ${book.name}</p>
+        <p><b>titel:</b> ${book.last}</p>
         <p><b>Years:</b> ${book.years}</p>
         <p><b>Price:</b> ${book.prix}</p>
         <p><b>Possibility:</b> ${book.possibility}</p>
